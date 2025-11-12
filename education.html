@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Education</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom right, #6a11cb, #2575fc);
+      color: #e0f7ff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      text-align: center;
+      z-index: 1000;
+    }
+
+     nav ul {
+    list-style: none;
+    margin-top: 6px ;
+    
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin: 0 18px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #aee7ff;
+    font-weight: 600;
+    transition: 0.3s;
+  }
+
+  nav ul li a:hover {
+    color: #ffe4ff;
+    text-shadow: 0 0 10px #fff;
+  }
+
+    main {
+      margin-top: 120px;
+      margin-bottom: 80px;
+      text-align: center;
+      padding: 40px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    li::before {
+    content: "✦ ";
+    color: #aee7ff;
+  }
+
+    .edu-card {
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 15px;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 600px;
+      text-align: left;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease,  0.3s ease;
+    }
+
+    .edu-card:hover {
+      transform: scale(1.03);
+      background: rgba(255, 255, 255, 0.25);
+    }
+
+    .edu-card h2 {
+      color: #fff;
+      font-size: 1.4em;
+      margin-bottom: 5px;
+    }
+
+    .edu-card p {
+      color: #cde8ff;
+      margin: 5px 0;
+    }
+
+    footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.1);
+      text-align: center;
+      padding: 15px 0;
+      color: #e0f7ff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul style="display: flex; justify-content: space-around; list-style-type: none;  background-color: rgb(148, 102, 161); padding: 18px; border-radius: 12px;  ">
+        <li><a href="index.html" style="color: white; text-decoration: none; font-size: 1.4rem;">Home</a></li>
+        <li><a href="aboutme.html" style="color: white; text-decoration: none; font-size: 1.4rem;">About Me</a></li>
+        <li><a href="education.html" style="color: white; text-decoration: none; font-size: 1.4rem;">Education</a></li>
+        <li><a href="project.html" style="color: white; text-decoration: none; font-size: 1.4rem;">Projects</a></li>
+        <li><a href="contact.html" style="color: white; text-decoration: none; font-size: 1.4rem;">Contact Info</a></li>
+      </ul>
+    </nav>
+    <h1>My Education Journey</h1>
+  </header>
+
+  <main>
+    <section>
+      <div class="edu-card">
+        <h2>BTECH Computer Science Engineering</h2>
+        <p><strong>College:</strong> Delhi Technological University</p>
+        <p><strong>Year:</strong> 2025 – 2029</p>
+        <p><strong>Highlights:</strong> Built web apps and explored ethical hacking.</p>
+      </div>
+
+      <div class="edu-card">
+        <h2>Senior Secondary (12th Grade)</h2>
+        <p><strong>School:</strong> Mata Nand Kaur Public School</p>
+        <p><strong>Year:</strong> 2024 – 2025</p>
+        <p><strong>Stream:</strong> Science (PCM)</p>
+      </div>
+
+      <div class="edu-card">
+        <h2>High School (10th Grade)</h2>
+        <p><strong>School:</strong> Horizon Public School</p>
+        <p><strong>Year:</strong> 2022 – 2023</p>
+        <p><strong>Highlights:</strong> I got 93% marks.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 | Designed with 💙 by Deepak</p>
+  </footer>
+</body>
+</html>

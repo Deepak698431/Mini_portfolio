@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom right, #6a11cb, #2575fc);
+      color: #e0f7ff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      text-align: center;
+      
+      z-index: 1000;
+    }
+
+    nav ul {
+    list-style: none;
+    margin-top: 6px ;
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin: 0 18px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #aee7ff;
+    font-weight: 600;
+    transition: 0.3s;
+  }
+
+  nav ul li a:hover {
+    color: #ffe4ff;
+    text-shadow: 0 0 10px #fff;
+  }
+    main {
+      margin-top: 120px;
+      margin-bottom: 100px;
+      text-align: center;
+      padding: 40px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+
+    .project-card {
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 15px;
+      padding: 20px;
+      padding-top: 10px;
+      margin: 45px auto;
+      max-width: 650px;
+      text-align: left;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease,  0.3s ease;
+    }
+
+    .project-card:hover {
+      transform: scale(1.03);
+      background: rgba(255, 255, 255, 0.25);
+    }
+
+    .project-card h2 {
+      color: #fff;
+      font-size: 1.4em;
+      margin-bottom: 10px;
+    }
+
+    .project-card p {
+      color: #cde8ff;
+      margin: 5px 0;
+    }
+
+    .project-links a {
+      display: inline-block;
+      margin-right: 15px;
+      margin-top: 10px;
+      text-decoration: none;
+      color: #ffd700;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+li::before {
+    content: "✦ ";
+    color: #aee7ff;
+  }
+    .project-links a:hover {
+      color: #ffffff;
+    }
+
+    footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.1);
+      text-align: center;
+      padding: 15px 0;
+      color: #e0f7ff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    
+     <nav>
+      <ul style="display: flex; justify-content: space-around; list-style-type: none;  background-color: rgb(148, 102, 161); padding: 18px; border-radius: 12px;  ">
+        <li><a href="index.html" style="color: white; text-decoration: none; font-size: 1.4rem;">Home</a></li>
+        <li><a href="aboutme.html" style="color: white; text-decoration: none; font-size: 1.4rem;">About Me</a></li>
+        <li><a href="education.html" style="color: white; text-decoration: none; font-size: 1.4rem;">Education</a></li>
+        <li><a href="project.html" style="color: white; text-decoration: none; font-size: 1.4rem;">Projects</a></li>
+        <li><a href="contact.html" style="color: white; text-decoration: none; font-size: 1.4rem;">Contact Info</a></li>
+      </ul>
+    </nav>
+    <h1>My Projects</h1>
+  </header>
+
+  <main>
+    <section>
+      <article class="project-card">
+        <h2>💻 X TWITTER</h2>
+        <p>A responsive personal portfolio designed using <strong>HTML5</strong>, <strong>TAILWIND CSS</strong>, and <strong>JavaScript</strong> to showcase my profile, education, and projects.</p>
+        <div class="project-links">
+          <a href="https://github.com/Deepak698431/X-Twitter" target="_blank">GitHub Repo</a>
+          
+        </div>
+      </article>
+
+      <article class="project-card">
+        <h2>🔐 Password Manager</h2>
+        <p>A desktop application that securely stores and retrieves passwords. Built with <strong>HTML</strong> and <strong>VITE</strong>and <strong>JAVASCRIPT</strong>.</p>
+        <div class="project-links">
+          <a href="https://github.com/Deepak698431/Passward-saver" target="_blank">GitHub Repo</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <h2>🤖 CHAI CUP</h2>
+        <p>This is a chai booking website. Created using <strong>NODE</strong> and <strong>NEXT</strong>.</p>
+        <div class="project-links">
+          <a href="https://github.com/Deepak698431/Buy-a-chai-cup" target="_blank">GitHub Repo</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <h2>🌐This is Todolist-project</h2>
+        <p>A real-time dashboard that helps the user to set the todos. It is made using <strong>TAILWIND CSS</strong>, <strong>VITE</strong>, and <strong>NEXT JS</strong>.</p>
+        <div class="project-links">
+          <a href="https://github.com/Deepak698431/Todolist-project" target="_blank">GitHub Repo</a>
+        </div>
+      </article>
+      <article class="project-card">
+        <h2> 🌍SPOTIFY CLONE</h2>
+        <P>This is the clone of the spotify which is made using <strong>HTML</strong> and <strong>CSS</strong> and <strong>JavaScript</strong> to make it functionable</P>
+        <div class="project-links">
+            <a href="https://github.com/Deepak698431/Spotify-clone1" target="_blank">GitHub Repo</a>
+        </div>
+      </article>
+    </section>
+
+
+  </main>
+
+  <footer>
+    <p>© 2025 | Designed with 💙 by Deepak</p>
+  </footer>
+</body>
+</html>

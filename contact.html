@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom right, #6a11cb, #2575fc);
+      color: #e0f7ff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      text-align: center;
+      z-index: 1000;
+    }
+
+    nav ul {
+    list-style: none;
+    margin-top: 6px ;
+    
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin: 0 18px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #aee7ff;
+    font-weight: 600;
+    transition: 0.3s;
+  }
+
+  nav ul li a:hover {
+    color: #ffe4ff;
+    text-shadow: 0 0 10px #fff;
+  }
+
+    main {
+      margin-top: 130px;
+      margin-bottom: 100px;
+      padding: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    form {
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(8px);
+      border-radius: 15px;
+      padding: 30px;
+      width: 90%;
+      max-width: 600px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    label {
+      display: block;
+      font-weight: 600;
+      margin: 15px 0 5px;
+      color: #fff;
+    }
+
+    input, textarea, select {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 8px;
+      margin-bottom: 10px;
+      font-size: 1em;
+      background: rgba(255, 255, 255, 0.2);
+      color: #fff;
+      outline: none;
+    }
+
+    input::placeholder, textarea::placeholder {
+      color: #e0e0e0;
+    }
+
+    textarea {
+      height: 120px;
+      resize: none;
+    }
+
+    button {
+      background-color: #ffd700;
+      color: #000;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      padding: 12px 20px;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: all 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #fff;
+      transform: scale(1.05);
+    }
+
+    .contact-info {
+      margin-top: 40px;
+      text-align: center;
+    }
+    li::before {
+    content: "✦ ";
+    color: #aee7ff;
+  }
+
+    .contact-info a {
+      color: #ffd700;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    .contact-info a:hover {
+      color: #fff;
+    }
+
+    footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.1);
+      text-align: center;
+      padding: 15px 0;
+      color: #e0f7ff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+      <nav>
+          <ul style="display: flex; justify-content: space-around; list-style-type: none;  background-color: rgb(148, 102, 161); padding: 18px; border-radius: 12px;  ">
+              <li><a href="index.html" style="color: white; text-decoration: none; font-size: 1.4rem;">Home</a></li>
+              <li><a href="aboutme.html" style="color: white; text-decoration: none; font-size: 1.4rem;">About Me</a></li>
+              <li><a href="education.html" style="color: white; text-decoration: none; font-size: 1.4rem;">Education</a></li>
+              <li><a href="project.html" style="color: white; text-decoration: none; font-size: 1.4rem;">Projects</a></li>
+              <li><a href="contact.html" style="color: white; text-decoration: none; font-size: 1.4rem;">Contact Info</a></li>
+            </ul>
+        </nav>
+        <h1>Contact Me</h1>
+  </header>
+
+  <main>
+    <form action="#" method="post">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" name="subject" placeholder="Enter the subject">
+
+      <label for="message">Your Message</label>
+      <textarea id="message" name="message" placeholder="Type your message here..."></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="contact-info">
+      <h3>Connect with Me</h3>
+      <a href="https://www.linkedin.com/in/deepak-sansalwal-b9016137a/" target="_blank">LinkedIn</a> |
+      <a href="https://github.com/Deepak698431" target="_blank">GitHub</a> |
+      <a href="mailto:deepak1686sansalwal@email.com">Email</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 | Designed with 💙 by Deepak</p>
+  </footer>
+</body>
+</html>
